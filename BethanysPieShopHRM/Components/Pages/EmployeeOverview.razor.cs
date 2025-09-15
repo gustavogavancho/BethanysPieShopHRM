@@ -8,6 +8,8 @@ public partial class EmployeeOverview
     public List<Employee> Employees { get; set; } = default!;
     private Employee? _selectedEmployee;
 
+    private string Title = "Employee overwiew";
+
     protected override async Task OnInitializedAsync()
     {
         Employees = MockDataService.Employees!;
