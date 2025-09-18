@@ -1,9 +1,8 @@
-﻿using BethanysPieShopHRM.Contracts.Services;
-using BethanysPieShopHRM.Services;
+﻿using BethanysPieShopHRM.Client.Services;
 using BethanysPieShopHRM.Shared.Domain;
 using Microsoft.AspNetCore.Components;
 
-namespace BethanysPieShopHRM.Components.Pages;
+namespace BethanysPieShopHRM.Client.Pages;
 
 public partial class EmployeeOverview
 {

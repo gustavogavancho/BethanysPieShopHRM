@@ -1,5 +1,5 @@
-﻿using BethanysPieShopHRM.Contracts.Repositories;
-using BethanysPieShopHRM.Contracts.Services;
+﻿using BethanysPieShopHRM.Client.Services;
+using BethanysPieShopHRM.Contracts.Repositories;
 using BethanysPieShopHRM.Shared.Domain;
 using Microsoft.AspNetCore.Hosting;
 

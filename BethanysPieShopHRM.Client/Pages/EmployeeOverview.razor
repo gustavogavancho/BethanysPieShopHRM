@@ -1,11 +1,10 @@
 ﻿@page "/employeeoverview"
 
+@rendermode InteractiveWebAssembly
+
 <h1>Employee Overview</h1>
 
 <PageTitle>@Title</PageTitle>
-
-@* @attribute [StreamRendering(true)] *@
-@rendermode InteractiveServer
 
 @if (Employees == null)
 {
